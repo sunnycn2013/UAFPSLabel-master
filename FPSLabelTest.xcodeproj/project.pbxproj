@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37B0F15A1C5B5007009F0432 /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B0F1591C5B5007009F0432 /* FPSLabel.m */; };
 		B0B616D21C59182F0086C40B /* UAFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B616D11C59182F0086C40B /* UAFPSLabel.m */; };
 		BEFC83551C44D28D00E6B0E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC83541C44D28D00E6B0E5 /* main.m */; };
 		BEFC83581C44D28D00E6B0E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC83571C44D28D00E6B0E5 /* AppDelegate.m */; };
@@ -14,7 +15,6 @@
 		BEFC83601C44D28D00E6B0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEFC835F1C44D28D00E6B0E5 /* Assets.xcassets */; };
 		BEFC83631C44D28D00E6B0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEFC83611C44D28D00E6B0E5 /* LaunchScreen.storyboard */; };
 		BEFC836E1C44D28D00E6B0E5 /* FPSLabelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC836D1C44D28D00E6B0E5 /* FPSLabelTestTests.m */; };
-		BEFC83891C44D6D300E6B0E5 /* FPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BEFC83881C44D6D300E6B0E5 /* FPSLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37B0F1581C5B5007009F0432 /* FPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSLabel.h; sourceTree = "<group>"; };
+		37B0F1591C5B5007009F0432 /* FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSLabel.m; sourceTree = "<group>"; };
 		B0B616D11C59182F0086C40B /* UAFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UAFPSLabel.m; sourceTree = "<group>"; };
 		BEFC83501C44D28D00E6B0E5 /* FPSLabelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPSLabelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFC83541C44D28D00E6B0E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		BEFC83691C44D28D00E6B0E5 /* FPSLabelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FPSLabelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEFC836D1C44D28D00E6B0E5 /* FPSLabelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FPSLabelTestTests.m; sourceTree = "<group>"; };
 		BEFC836F1C44D28D00E6B0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEFC83871C44D6D300E6B0E5 /* FPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPSLabel.h; sourceTree = "<group>"; };
-		BEFC83881C44D6D300E6B0E5 /* FPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPSLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,8 @@
 		BEFC83521C44D28D00E6B0E5 /* FPSLabelTest */ = {
 			isa = PBXGroup;
 			children = (
+				37B0F1581C5B5007009F0432 /* FPSLabel.h */,
+				37B0F1591C5B5007009F0432 /* FPSLabel.m */,
 				BEFC83861C44D6D300E6B0E5 /* View */,
 				BEFC83561C44D28D00E6B0E5 /* AppDelegate.h */,
 				BEFC83571C44D28D00E6B0E5 /* AppDelegate.m */,
@@ -117,8 +119,6 @@
 		BEFC83861C44D6D300E6B0E5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BEFC83871C44D6D300E6B0E5 /* FPSLabel.h */,
-				BEFC83881C44D6D300E6B0E5 /* FPSLabel.m */,
 				B0B616D11C59182F0086C40B /* UAFPSLabel.m */,
 			);
 			path = View;
@@ -227,7 +227,7 @@
 			files = (
 				BEFC835B1C44D28D00E6B0E5 /* ViewController.m in Sources */,
 				BEFC83581C44D28D00E6B0E5 /* AppDelegate.m in Sources */,
-				BEFC83891C44D6D300E6B0E5 /* FPSLabel.m in Sources */,
+				37B0F15A1C5B5007009F0432 /* FPSLabel.m in Sources */,
 				B0B616D21C59182F0086C40B /* UAFPSLabel.m in Sources */,
 				BEFC83551C44D28D00E6B0E5 /* main.m in Sources */,
 			);

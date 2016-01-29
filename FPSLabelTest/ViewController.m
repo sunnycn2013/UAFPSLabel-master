@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FPSLabel.h"
 
 @interface ViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
-    void DWURecyclingAlert();
+//    void DWURecyclingAlert();
+    
+    FPSLabel * label = [[FPSLabel alloc] initWithFrame:CGRectMake(100, 100, 100, 40)];
+    [self.view addSubview:label];
 
 }
 

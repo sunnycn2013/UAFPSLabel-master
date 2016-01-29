@@ -13,7 +13,6 @@
 
 @property (nonatomic,strong) CADisplayLink *displayLink;
 
-
 @end
 
 __attribute__((constructor)) static void DWURecyclingAlert(void) {

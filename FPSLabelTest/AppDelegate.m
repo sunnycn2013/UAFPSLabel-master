@@ -25,7 +25,7 @@
     [self.window makeKeyAndVisible];
     
     
-    [FPSLabel showInWindow:self.window];
+//    [FPSLabel showInWindow:self.window];
     return YES;
 }
 
